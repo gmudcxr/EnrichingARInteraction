@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &700730336626774094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700730336626774095}
+  - component: {fileID: 700730336626774128}
+  m_Layer: 0
+  m_Name: PoseEstimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &700730336626774095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700730336626774094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50, y: -0.5, z: 50}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &700730336626774128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700730336626774094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbd36f8c1d6aab4d932832772a5adb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapGeneratorPreview: {fileID: 0}
+  alwaysEnable: 1
+  colliderContainer: {fileID: 0}
+  originalObjectsGameObject: {fileID: 0}
+  graphRootGameObject: {fileID: 0}
+  sitesGameObject: {fileID: 0}
+  showGroundTruthLabel: 1
+  groundTruthLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  ignoreInvisible: 1
+  player: {fileID: 0}
+  orientation: {fileID: 0}
+  orientationLength: 5
+  FOVLength: 50
+  fovLine1: {fileID: 0}
+  fovLine2: {fileID: 0}
+  updateOnPlay: 1
+  showOrientation: 1
+  showFOV: 1
+  normalizeCost: 1
+  templatesRoot: {fileID: 0}
+  selectedMaterial: {fileID: 2100000, guid: c6a46c2741e9a444691347bf2c3136f6, type: 2}
+  estimatedLabelColor: {r: 1, g: 0, b: 0, a: 1}
+  saveModelName: pose
+  keyboardInput: 1
+  increaseRatio: 1.1
+  decreaseRatio: 0.9
+  detectedRoot: {fileID: 0}
+  useSoftmax: 1
+  distanceWeight: 1
+  rotationWeight: 1
