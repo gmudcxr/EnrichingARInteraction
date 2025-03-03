@@ -1,6 +1,6 @@
 # Enriching AR Interaction
 
-This is the official implementation of the paper **Enriching Physical-Virtual Interaction in AR Gaming by Tracking Identical Real Objects** submitted to IEEE Transactions on Games Special Issue on Computer Vision and Games.
+This is the official implementation of the paper **Enriching Physical-Virtual Interaction in AR Gaming by Tracking Identical Real Objects**.
 
 ## Development Environment
 
