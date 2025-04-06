@@ -1,6 +1,8 @@
 # Enriching AR Interaction
 
-This is the official implementation of the paper **Enriching Physical-Virtual Interaction in AR Gaming by Tracking Identical Real Objects**.
+This is the official implementation of the paper **Enriching Physical-Virtual Interaction in AR Gaming by Tracking Identical Objects via an Egocentric Partial Observation Frame**.
+
+![Layouts](ReadMe/intro.png)
 
 ## Development Environment
 
